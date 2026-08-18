@@ -39,7 +39,6 @@ supabase functions deploy get-document-url
 supabase secrets set SUPABASE_SERVICE_ROLE_KEY=your-service-role-key   # from Project Settings -> API
 ```
 
-supabase secrets set SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3bGNldmx6bmZ5eml4YXJ3cGZsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4NzA1NDEzMiwiZXhwIjoyMTAyNjMwMTMyfQ.15Sowb3PrGApCfxrpv8N0vWB1-LaGWGT8efEcERDDv4
 
 ## 4. Configure the app
 
