@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Barlow Condensed", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-charcoal: #1B1D21;
+  --color-charcoal-light: #2A2D33;
+  --color-concrete: #EDEAE3;
+  --color-concrete-dark: #DFDBD2;
+  --color-hazard: #1E5F8C;
+  --color-hazard-light: #2B7CB3;
+  --color-valid: #2F9E44;
+  --color-expiring: #F2A900;
+  --color-expired: #D64545;
+}
+
+body {
+  background-color: var(--color-concrete);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+  .punch-hole {
+    box-shadow: inset 0 0 0 2px rgba(27, 29, 33, 0.08);
+  }
+}
